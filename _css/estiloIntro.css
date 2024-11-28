@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('imagem.fundo');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.message {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Um fundo semitransparente para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+}
